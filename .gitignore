@@ -7,3 +7,5 @@ playwright-report
 test-results
 /test-results
 .npm-cache
+*.tsbuildinfo
+.claude/
