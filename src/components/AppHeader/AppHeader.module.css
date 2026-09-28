@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 96px;
+  padding: 24px 16px;
+  background: var(--sd-color-bg-white);
+  box-shadow: inset 0 -1px 0 var(--sd-color-border-primary);
+}
+
+.logoArea {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logoMark {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background: var(--sd-color-border-primary);
+  flex-shrink: 0;
+}
+
+.clientLogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+}
+
+.clientLogoMark {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.clientWordmark {
+  width: 67px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.title {
+  font-family: var(--sd-font-family);
+  font-weight: var(--sd-weight-semibold);
+  font-size: var(--sd-font-size-header-title);
+  line-height: var(--sd-line-height-md);
+  color: var(--sd-raw-header-title-color);
+  text-align: center;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  width: 241px;
+}
+
+.metaDate {
+  font-family: var(--sd-font-family);
+  font-weight: var(--sd-weight-medium);
+  font-size: var(--sd-font-size-sm);
+  line-height: var(--sd-line-height-exs);
+  color: var(--sd-color-text-third);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.metaCount {
+  font-family: var(--sd-font-family);
+  font-weight: var(--sd-weight-regular);
+  font-size: var(--sd-font-size-sm);
+  line-height: var(--sd-line-height-exs);
+  color: var(--sd-color-text-subtle);
+  margin: 0;
+  white-space: nowrap;
+}

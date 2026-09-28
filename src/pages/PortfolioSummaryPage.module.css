@@ -1,0 +1,41 @@
+.page {
+  width: 1754px;
+  height: 1240px;
+  background: var(--sd-color-bg-white);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 0 40px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.main {
+  margin-top: 16px;
+  height: 1108px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 1072px;
+}
+
+.statsRow {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.footerWrap {
+  margin-top: 20px;
+}
